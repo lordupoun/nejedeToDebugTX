@@ -1,0 +1,3 @@
+../Core/Src/si4432_io_hal.c:7:6:SI44_Read	2
+../Core/Src/si4432_io_hal.c:20:6:SI44_Write	2
+../Core/Src/si4432_io_hal.c:33:6:SI44_IO_Init	1
