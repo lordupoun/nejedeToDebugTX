@@ -1,3 +1,6 @@
-../Core/Src/si4432_io_hal.c:7:6:SI44_Read	2
-../Core/Src/si4432_io_hal.c:20:6:SI44_Write	2
-../Core/Src/si4432_io_hal.c:33:6:SI44_IO_Init	1
+../Core/Src/si4432_io_hal.c:49:6:SI44_Read	1
+../Core/Src/si4432_io_hal.c:64:6:SI44_Write	1
+../Core/Src/si4432_io_hal.c:74:6:SI44_Read_IT	1
+../Core/Src/si4432_io_hal.c:93:6:SI44_Write_IT	1
+../Core/Src/si4432_io_hal.c:107:6:SI44_IO_Init	1
+../Core/Src/si4432_io_hal.c:114:6:SI44_NSS_Set	1

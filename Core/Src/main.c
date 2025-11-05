@@ -17,11 +17,11 @@
  */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
+#include <si4432.h>
 #include "main.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "si4432.h"
 #include <string.h>
 /* USER CODE END Includes */
 
@@ -122,9 +122,13 @@ int main(void)
 		//HAL_Delay(1000);
 		//char msg[] = "\nUART test - odeslano pres IT nema se ukazovat\r\n";
 		//HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), 100);
-		uint8_t msg[] = "ahoj";
+		uint8_t msg[20];
+		for(int i=0; i<10000;i++)
+		{
+		sprintf(msg, "%d", i);
 		SI44_SendPacket(msg, sizeof(msg)); //sizeof, asi ne strlen, neni potreba nulovy terminator //nebo &msg[0]
 		HAL_Delay(2000);
+		}
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

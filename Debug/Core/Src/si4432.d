@@ -1,5 +1,5 @@
-Core/Src/si4432.o: ../Core/Src/si4432.c ../Core/Inc/SI4432.h \
- ../Core/Inc/SI4432_constants.h ../Core/Inc/SI4432_IO.h \
+Core/Src/si4432.o: ../Core/Src/si4432.c ../Core/Inc/si4432.h \
+ ../Core/Inc/si4432_constants.h ../Core/Inc/si4432_io_hal.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  ../Core/Inc/stm32f1xx_hal_conf.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
@@ -24,11 +24,10 @@ Core/Src/si4432.o: ../Core/Src/si4432.c ../Core/Inc/SI4432.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
- ../Core/Inc/SI4432_private.h ../Core/Inc/SI4432.h \
- ../Core/Inc/SI4432_IO.h
-../Core/Inc/SI4432.h:
-../Core/Inc/SI4432_constants.h:
-../Core/Inc/SI4432_IO.h:
+ ../Core/Inc/si4432_config.h ../Core/Inc/si4432_io_hal.h
+../Core/Inc/si4432.h:
+../Core/Inc/si4432_constants.h:
+../Core/Inc/si4432_io_hal.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
 ../Core/Inc/stm32f1xx_hal_conf.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:
@@ -53,6 +52,5 @@ Core/Src/si4432.o: ../Core/Src/si4432.c ../Core/Inc/SI4432.h \
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
-../Core/Inc/SI4432_private.h:
-../Core/Inc/SI4432.h:
-../Core/Inc/SI4432_IO.h:
+../Core/Inc/si4432_config.h:
+../Core/Inc/si4432_io_hal.h:
